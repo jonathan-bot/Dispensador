@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="380dp"
+        android:layout_height="693dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="APP DISPENSADOR"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Sensor(1)"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/sensor1"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="0.0"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Sensor(2)"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/sensor2d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+
+            android:layout_width="93dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Sensor(3)"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/sensor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <Button
+            android:id="@+id/consultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="80dp"
+            android:gravity="center"
+            android:text="CONSULTAR" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.constraint.ConstraintLayout>
+
+
+
+
